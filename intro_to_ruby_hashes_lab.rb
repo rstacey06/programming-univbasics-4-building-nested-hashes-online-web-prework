@@ -10,7 +10,7 @@ end
 
 def monopoly_with_third_tier
   monopoly = { railroads:{ pieces: 4} 
-  rent_in_dollars
+  rent_in_dollars{}
      }
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
